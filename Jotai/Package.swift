@@ -1,14 +1,22 @@
-// swift-tools-version: 6.0
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// swift-tools-version: 5.10
 import PackageDescription
 
 let package = Package(
     name: "Jotai",
+    platforms: [
+        .iOS(.v14) // Change the version as needed
+    ],
+    products: [
+        .library(
+            name: "Jotai",
+            targets: ["Jotai"]
+        )
+    ],
+    dependencies: [],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .executableTarget(
-            name: "Jotai"),
+        .target(
+            name: "Jotai",
+            path: "Sources/Jotai"
+        )
     ]
 )
