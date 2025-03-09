@@ -86,7 +86,8 @@ Follow these steps to get a local copy of Jotai up and running.
    open Jotai.xcodeproj
    ```
 3. Build and run the project on your simulator or device.
-
+```npm run dev
+```
 <!-- USAGE -->
 ## Usage
 
