@@ -86,8 +86,10 @@ Follow these steps to get a local copy of Jotai up and running.
    open Jotai.xcodeproj
    ```
 3. Build and run the project on your simulator or device.
-```npm run dev
-```
+    ```sh
+    npm run dev
+    ```
+    
 <!-- USAGE -->
 ## Usage
 
@@ -132,7 +134,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Vizor - vizordynamics@gmail.com
 
-Project Link: [https://github.com/yourusername/Jotai]
+Project Link: [https://github.com/vizorscripts/Jotai]
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
