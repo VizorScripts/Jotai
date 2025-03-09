@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vizorscripts/Jotai">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/VizorScripts/Jotai/blob/main/Jotai/Sources/Jotai/images/logo.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Jotai</h3>
