@@ -5,7 +5,7 @@ import SwiftUI
 struct JotaiApp: App {
     var body: some Scene {
         WindowGroup {
-            DashboardView()
+            ContentView()
         }
     }
 }
